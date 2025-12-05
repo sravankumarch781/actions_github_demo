@@ -6,3 +6,9 @@ jobs:
         steps:
             - name: Demo steps
               run: echo "Welcome to Github Actions"
+
+            - name: list file
+              run: ls -l
+
+            - name: Print Readme
+              run: cat README.md
