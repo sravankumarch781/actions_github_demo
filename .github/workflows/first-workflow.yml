@@ -4,11 +4,11 @@ jobs:
   first_job:
     runs-on: ubuntu-latest
     steps: 
-      - name: 
-        run: echo "Welcome to git hub actions"
-      
       - name: Checkout
         uses: actions/checkout@v6.0.1
 
       - name: list a file
         run: ls -l
+
+      - name: Print a file
+        run: cat README.md
