@@ -8,7 +8,7 @@ jobs:
         run: echo "Welcome to git hub actions"
       
       - name: create test file
-        run: cat ""This second line" >> test.txt
+        run: touch test.txt
 
       - name: list a file
         run: ls -l
