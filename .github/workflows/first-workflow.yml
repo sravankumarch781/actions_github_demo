@@ -1,17 +1,8 @@
-name: First workflow
+name: First-Workflow
 on: push
 jobs:
-    first_job:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Demo steps
-              run: echo "Welcome to Github Actions"
-
-            - name: checkout repo
-              uses: actions/checkout@v6
-               
-            - name: list file
-              run: ls -l
-
-            - name: Print Readme
-              run: cat README.md
+  first_job:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: 
+        run: echo "Welcome to git hub actions"
