@@ -6,3 +6,7 @@ jobs:
     steps: 
       - name: 
         run: echo "Welcome to git hub actions"
+      
+      - name:
+        run: ls -lrt
+        
