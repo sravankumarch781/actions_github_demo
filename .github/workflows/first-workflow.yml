@@ -7,8 +7,8 @@ jobs:
       - name: 
         run: echo "Welcome to git hub actions"
       
-      - name: create test file
-        run: touch test.txt
+      - name: Checkout
+        uses: actions/checkout@v6.0.1
 
       - name: list a file
         run: ls -l
